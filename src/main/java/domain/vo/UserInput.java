@@ -17,4 +17,8 @@ public class UserInput {
         }
         return new UserInput(value);
     }
+
+    public String getName() {
+        return name;
+    }
 }
